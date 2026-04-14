@@ -61,9 +61,6 @@ admin.site.register(Question, QuestionAdmin)
 
 class ChoiceInline(admin.TabularInline): ...
 
-class QuestionAdmin(admin.ModelAdmin):
-    # ...
-    list_display = ["question_text", "pub_date"]
     
 class QuestionAdmin(admin.ModelAdmin):
     # ...
